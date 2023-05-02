@@ -17,17 +17,17 @@ for(let i = 1; i <= 100; i++){
     // inserire il valore all'interno dell'elemento creato
     // quadrato.append(i);
     
+    // se l'elemento è divisibile sia per 3 che per 5
+    if(i % 15 == 0){
+        quadrato.append("fizzbuzz")
+    }
     // se l'elemento è divisibile per tre
-    if(i % 3 == 0){
-        quadrato.append = `fizz`
+    else if(i % 3 == 0){
+        quadrato.append(`fizz`)
     }
     // se l'elemento è divisibile per 5
     else if(i % 5 == 0){
-        quadrato.append =`buzz`
-    }
-    // se l'elemento è divisibile sia per 3 che per 5
-    else if(i % 15 == 0){
-        quadrato.append = "fizzbuzz"
+        quadrato.append(`buzz`)
     }
     // altrimenti scrivi il numero
     else{
