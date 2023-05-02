@@ -20,3 +20,41 @@
     margin: 5px;
 
 }
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.fizzbuzz{
+    background-color: orange;
+    width: calc(10% - 10px);
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.fizz{
+    background-color: yellow;
+    width: calc(10% - 10px);
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.buzz{
+    background-color: red;
+    width: calc(10% - 10px);
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}

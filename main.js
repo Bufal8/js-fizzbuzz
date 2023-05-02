@@ -11,7 +11,7 @@ for(let i = 1; i <= 100; i++){
     
     
     // aggiungere classe ad ogni span
-    quadrato.classList.add('square')
+    // quadrato.classList.add('square')
     
     
     // inserire il valore all'interno dell'elemento creato
@@ -20,18 +20,22 @@ for(let i = 1; i <= 100; i++){
     // se l'elemento è divisibile sia per 3 che per 5
     if(i % 15 == 0){
         quadrato.append("fizzbuzz")
+        quadrato.classList.add("fizzbuzz")
     }
     // se l'elemento è divisibile per tre
     else if(i % 3 == 0){
         quadrato.append(`fizz`)
+        quadrato.classList.add('fizz')
     }
     // se l'elemento è divisibile per 5
     else if(i % 5 == 0){
         quadrato.append(`buzz`)
+        quadrato.classList.add('buzz')
     }
     // altrimenti scrivi il numero
     else{
-        quadrato.append(i);
+        quadrato.append(i)
+        quadrato.classList.add('square')
     }
 
 
